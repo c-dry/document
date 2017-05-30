@@ -1,0 +1,24 @@
+Login : POST
+http://c-laundry.hol.es/api2/login.php
+Param : email, password
+
+Register : POST
+http://c-laundry.hol.es/api2/register.php
+Param : email, password, name, address
+
+Get Data Order : GET
+http://c-laundry.hol.es/api2/getOrders.php
+Param : email
+
+Get Data History: GET
+http://c-laundry.hol.es/api2/getHistory.php
+Param : email
+
+Add Data Order : POST
+http://c-laundry.hol.es/api2/postOrder.php
+Param : email, weight, price, date_order, date_end, status
+(Untuk weight, price, date_end diisi 0 dulu)
+
+Edit Data User : POST
+http://c-laundry.hol.es/api2/postUser.php
+Param : id_user, email, name, address, role
